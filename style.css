@@ -1,45 +1,37 @@
 
 /* This is My Style */
-
 *{
     margin-top: 0;
     margin-bottom: 0;
     user-select: none;
 
 }
-
 body {
     font : 16px/28px arial, sans-serif;
     background-color: #c7ecee;
 }
-
 .container {
     width: 900px;
     margin: auto;
     background-color: white;
 }
-
 .header {
     padding: 20px;
     border-bottom: 5px solid #10ac84;
     background-color: #30336b;
-
 }
-
 .header .title {
     font-size: 30px;
     font-weight: bold;
     text-align: center;
     color: white;
 }
-
 #result{
     font-size: 30px;
     margin-top: 5px;
     margin-left: 10px;
     color: #10ac84;
 }
-
 .question-quiz{
     background-color: #f8f8f8;
     margin: 1%;
@@ -47,7 +39,6 @@ body {
     border-bottom-right-radius: 20px;
     border-bottom: 1px solid #10ac84;
 }
-
 button{
     border: none;
     padding: 10px 40px 10px 40px;
@@ -59,17 +50,14 @@ button{
     margin-top: 1%;
     border-radius: 5px;
 }
-
 .button:hover{
     background: green;
     cursor: pointer;
 }
-
 .footer {
     background-color: #30336b;
     padding: 10px;
 }
-
 .footer .copy {
     color: white;
     text-align: center;
