@@ -13,8 +13,8 @@
         </div>
         <div id="result">
             <!-- tamplikan hasil dari proses  -->
-                <p><?php require("process.php") ?></p>
-            </div>
+            <p><?php include("process.php") ?></p>
+        </div>
         <div>
         <div class="quiz">
             <form method="POST">

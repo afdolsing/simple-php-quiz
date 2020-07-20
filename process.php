@@ -1,5 +1,9 @@
 <?php
-
+    /*
+    apakah ada atribut dengan nama 'save' yang dikirim dari form menggunakan method=POST
+    cek menggunakan isset()
+    jika ada, proses script bawahnya
+    */
     if(isset($_POST['save'])){
 
         $totalScore = 0; // total nilai
@@ -20,8 +24,7 @@
                 }    
             }
         }
-        echo "score : ";
         $result = $totalScore * 20;
-        echo "$result";
+        echo "score : " . $result;
     }
 ?>
